@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "broken_watch_pact",
+        "abbreviation": "Reuna",
+        "full": "The Continent of Reuna",
+        "version": "1.0.0",
+        "url": "https://github.com/nihilistkitten/homebrew"
+      }
+    ]
+  },
+  "optionalfeature": [
+    {
+      "name": "Pact of the Broken Watch",
+      "source": "Reuna",
+      "featureType": [
+        "PB"
+      ],
+      "entries": [
+        "Your patron gives you a broken watch, symbolizing your continuing refusal to be bound by time. While wearing this watch, you can manipulate the flow of time, reversing an unfavorable action or encouraging a favorable one. As a reaction, after you or a creature you can see makes an ability check, attack roll, or saving throw, you can force the creature to reroll that roll. The target must use the result of the second roll. Take this reaction after the result of the roll is declared, but before its outcome is determined.",
+        "You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "If you lose the broken watch, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous watch. The watch turns to ash when you die."
+      ]
+    },
+    {
+      "name": "Turn the Watch Hand",
+      "source": "Reuna",
+      "featureType": [
+        "EI"
+      ],
+      "prerequisite": [
+        {
+          "pact": "Broken Watch"
+        }
+      ],
+      "entries": [
+        "While wearing your broken watch, whenever you roll initiative, you can add or subtract your intelligence modifier from the roll of a creature you can see (including yourself)."
+      ]
+    }
+  ]
+}
